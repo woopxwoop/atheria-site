@@ -23,6 +23,7 @@ export default async function AboutMember({ member }: { member: Member }) {
                 key={link.type}
                 aria-label={`link to ${member.name}'s ${link.type}`}
                 className="hover:opacity-50"
+                target="_blank"
               >
                 <Icon name={link.type} />
               </a>
