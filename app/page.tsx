@@ -4,7 +4,7 @@ import AtheriaLogo from "@/app/ui/AtheriaLogo";
 export default function Home() {
   return (
     <div>
-      <main className="m-0 p-4 -translate-y-20 text-center">
+      <main className="m-0 p-4 -translate-y-28 text-center">
         <div className="flex flex-col items-center">
           <div className="flex flex-col justify-center items-center w-[80%]">
             <div className="transition mb-4">

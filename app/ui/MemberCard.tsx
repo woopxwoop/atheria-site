@@ -17,7 +17,7 @@ export default async function AboutMember({ member }: { member: Member }) {
           fill={true}
         />
 
-        <div className="relative text-gray-200 p-4">
+        <div className="relative p-4">
           <p className="text-sm font-medium tracking-widest uppercase">
             {member.roles ? member.roles[0] : "role"}
           </p>
@@ -26,7 +26,7 @@ export default async function AboutMember({ member }: { member: Member }) {
 
           <div className="mt-64">
             <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-              <p className="text-sm">{""}</p>
+              <p className="text-sm">{}</p>
             </div>
           </div>
         </div>

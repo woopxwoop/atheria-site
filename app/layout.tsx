@@ -37,7 +37,7 @@ export default function RootLayout({
             <div className="flex mt-4 justify-center mb-10">
               <Navbar />
             </div>
-            <div className="w-[full] ">{children}</div>
+            <div className="w-[full] mt-20 flex justify-center">{children}</div>
           </div>
         </ThemeContextProvider>
       </body>

@@ -23,7 +23,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 ">
             <div className="flex items-center gap-4">
               <ul
-                className={`w-[50%] sm:w-full sm:flex-row flex-col sm:static fixed top-12 left-[50%] rounded-2xl  border mx-auto items-center text-base sm:p-0 p-2 gap-2 sm:gap-4 sm:border-hidden ${hideOnMobile ? "hidden" : "flex"} sm:flex`}
+                className={`w-[50%] sm:w-full sm:flex-row flex-col sm:static fixed top-12 left-[50%] rounded-2xl  border mx-auto items-center text-base sm:p-0 p-2 gap-2 sm:gap-4 sm:border-hidden bg-(--background-color) ${hideOnMobile ? "hidden" : "flex"} sm:flex`}
               >
                 <li>
                   <Link href="/" className="hover:underline">
@@ -60,6 +60,7 @@ export default function Navbar() {
                 }}
               >
                 <Menu />
+                Menu
               </button>
               <button
                 onClick={() => handleThemeChange(!isDark)}
