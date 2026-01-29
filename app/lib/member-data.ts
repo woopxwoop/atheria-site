@@ -74,12 +74,6 @@ const vivianTrach: Member = {
 //#endregion
 export const execMembers: Member[] = [vivianTrach];
 export const members: Member[] = [
-  graceDelFrate,
-  camrynBlum,
-  winstonLa,
-  annieZhao,
-  vivianTrach,
-
   {
     name: "Andrew Lou",
     photo: "/andrew-lou.jpg",
@@ -95,6 +89,11 @@ export const members: Member[] = [
     isActive: true,
     isExec: false,
   },
+  annieZhao,
+  camrynBlum,
+  graceDelFrate,
+  vivianTrach,
+  winstonLa,
 ];
 
 /*
@@ -121,3 +120,10 @@ export const members: Member[] = [
     isExec: false,
   },
 */
+
+// sort by name (remove if not needed)
+members.sort((a, b) => {
+  if (a.name < b.name) return -1;
+  if (a.name > b.name) return 1;
+  return 0;
+});

@@ -14,7 +14,7 @@ export default async function Page({
     return nameToPath(m.name) === slug;
   });
 
-  console.log(member);
+  // console.log(member);
 
   const isValidMember: boolean = typeof member !== "undefined";
 

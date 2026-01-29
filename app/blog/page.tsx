@@ -1,3 +1,9 @@
 export default async function Page() {
-  return <div>page</div>;
+  return (
+    <main>
+      <div>
+        <p>There are no blogs here currently</p>
+      </div>
+    </main>
+  );
 }

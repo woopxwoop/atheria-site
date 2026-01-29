@@ -1,8 +1,15 @@
 export type Project = {
   title: string;
-  members: Member[];
+  codename?: string;
+  members: ProjectMember[];
   timeline: Event[];
   isActive: boolean;
+  description: string;
+};
+
+export type ProjectMember = {
+  name: string;
+  role: string;
 };
 
 export type Member = {
@@ -26,4 +33,5 @@ type Event = {
   name: string;
   description: string;
   date: Date;
+  picture?: string;
 };
