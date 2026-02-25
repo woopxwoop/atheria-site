@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <>
       <div className="flex justify-center fixed top-2 items-center gap-6.25 w-[80%] z-10">
-        <div className="w-[70%] sm:w-[90%] border flex items-center sm:justify-center justify-end  backdrop-blur-sm rounded-3xl py-2 px-4">
+        <div className="w-[90%] border flex items-center sm:justify-center justify-end  backdrop-blur-sm rounded-3xl py-2 px-4">
           <div className="flex items-center gap-2 ">
             <div className="flex items-center gap-4">
               <ul
@@ -60,7 +60,6 @@ export default function Navbar() {
                 }}
               >
                 <Menu />
-                Menu
               </button>
               <button
                 onClick={() => handleThemeChange(!isDark)}

@@ -1,4 +1,4 @@
-import ContactForm from "@/app/ui/ContactForm";
+import ContactForm from "@/app/lib/ui/ContactForm";
 
 export default async function Page() {
   return (

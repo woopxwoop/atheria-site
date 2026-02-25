@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
-import Navbar from "@/app/ui/Navbar";
+import Navbar from "@/app/lib/ui/Navbar";
 import { ThemeContextProvider } from "@/app/contexts/ThemeContext";
 
 const geistSans = Geist({
@@ -30,7 +30,7 @@ export default function RootLayout({
         <link rel="icon" href="/atheria-logo.ico" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-[full]`}
       >
         <ThemeContextProvider>
           <div className="w-[full] m-auto">

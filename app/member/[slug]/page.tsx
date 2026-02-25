@@ -1,7 +1,7 @@
 import { members } from "@/app/lib/member-data";
 import { Member } from "@/app/lib/definitions";
 import { nameToPath } from "@/app/lib/utils";
-import AboutMember from "@/app/ui/AboutMember";
+import AboutMember from "@/app/lib/ui/AboutMember";
 
 export default async function Page({
   params,

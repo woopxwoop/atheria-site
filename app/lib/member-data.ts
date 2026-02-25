@@ -71,6 +71,7 @@ const vivianTrach: Member = {
   isActive: true,
   isExec: true,
 };
+
 //#endregion
 export const execMembers: Member[] = [vivianTrach];
 export const members: Member[] = [

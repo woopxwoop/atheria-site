@@ -1,7 +1,7 @@
 import { nameToPath } from "@/app/lib/utils";
 import { projects } from "@/app/lib/project-data";
 import { Project } from "@/app/lib/definitions";
-import AboutProject from "@/app/ui/AboutProject";
+import AboutProject from "@/app/lib/ui/AboutProject";
 
 export default async function Page({
   params,

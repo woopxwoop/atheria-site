@@ -42,7 +42,12 @@ p {
     4rem /* 64px */
   );
 }
-@layer components {
+
+html {
+  scrollbar-color: var(--secondary-color) var(--background-color);
+}
+
+@layer utilities {
   .theme-toggle {
     @apply flex items-center gap-2 rounded-full p-1 w-10 transition-colors border-(--foreground-color) border;
   }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AtheriaLogo from "@/app/ui/AtheriaLogo";
+import AtheriaLogo from "@/app/lib/ui/AtheriaLogo";
 
 export default function Home() {
   return (
@@ -21,11 +21,12 @@ export default function Home() {
             </h2>
           </div>
           <div className="mt-20 flex flex-col items-center w-[90%] gap-y-10">
+            {/*}
             <h2 className="w-[70%] ">
               Empowering people to overcome cardiovascular disease by realizing
               the potential of stem cell technologies for cardiovascular
               medicine.
-            </h2>
+            </h2>*/}
             <div className="w-full flex flex-row justify-between gap-10">
               <div className="mt-4 text-left">
                 <h1> Atheria Institute for Cardiovascular Medicine </h1>
@@ -56,10 +57,12 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            {/*
             <h2 className="w-[70%] ">
               Empowering people to transcend the limitations of their conditions
               through assistive technologies and human-ai collaboration.
             </h2>
+            */}
             <div className="w-full flex flex-row justify-between gap-10">
               <div className="mt-4 text-left">
                 <h1> Atheria Center for Human-Centered AI</h1>

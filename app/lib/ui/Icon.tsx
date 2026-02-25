@@ -1,4 +1,4 @@
-import * as Icons from "@/app/ui/Icons";
+import * as Icons from "@/app/lib/ui/Icons";
 import { ReactNode } from "react";
 
 function getIcon(name: string): ReactNode | boolean {

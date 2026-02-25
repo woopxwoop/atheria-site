@@ -1,6 +1,6 @@
 import { Member } from "@/app/lib/definitions";
 import Image from "next/image";
-import Icon from "@/app/ui/Icon";
+import Icon from "@/app/lib/ui/Icon";
 
 export default async function AboutMember({ member }: { member: Member }) {
   return (
