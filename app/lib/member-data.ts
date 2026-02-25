@@ -71,9 +71,20 @@ const vivianTrach: Member = {
   isActive: true,
   isExec: true,
 };
-
+const aviannaMeder: Member = {
+  name: "Avianna Meder",
+  photo: "/Aviannameder.PNG",
+  roles: ["CBO"],
+  fieldsOfStudy: ["Consumer Behavior and Marketplace Studies"],
+  projects: [],
+  links: [{ type: "LinkedIn", url: "https://www.linkedin.com/in/vtrach/" }],
+  statement:
+    "Hi! I'm a junior studying Molecular and Cell Biology and Data Science and am passionate about topics in sexual health education, bioinformatics, and wellness. For fun, I love to read, cook, and travel in my free time!",
+  isActive: true,
+  isExec: true,
+};
 //#endregion
-export const execMembers: Member[] = [vivianTrach];
+export const execMembers: Member[] = [vivianTrach, aviannaMeder];
 export const members: Member[] = [
   {
     name: "Andrew Lou",
@@ -95,6 +106,7 @@ export const members: Member[] = [
   graceDelFrate,
   vivianTrach,
   winstonLa,
+  aviannaMeder,
 ];
 
 /*
